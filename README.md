@@ -25,15 +25,15 @@ High-level architecture
 -----------------------
 EC2 (Grafana) --uses--> IAM Instance Profile --> CloudWatch API  
 Grafana pulls CloudWatch metrics and renders dashboards on port 3000. Optionally, an NGINX reverse proxy / ALB provides HTTPS and authentication.
+![Alt text describing the image](assets/images/image1.png)
+![Alt text describing the image](assets/images/image1.png)
+![Alt text describing the image](assets/images/image1.png)
+![Alt text describing the image](assets/images/image1.png)
+![Alt text describing the image](assets/images/image1.png)
+![Alt text describing the image](assets/images/image1.png)
+![Alt text describing the image](assets/images/image1.png)
+![Alt text describing the image](assets/images/image1.png)
 
-Directory layout (recommended)
-------------------------------
-- README.md (this file)  
-- assets/icons/ (Grafana/AWS icons: SVG/PNG)  
-- assets/images/ (screenshots image1.png … image8.png)  
-- grafana/provisioning/datasources/ (datasource YAML)  
-- grafana/provisioning/dashboards/ (dashboard JSON and provisioning YAML)  
-- scripts/ (helper scripts)
 
 Full implementation steps (end-to-end)
 -------------------------------------
