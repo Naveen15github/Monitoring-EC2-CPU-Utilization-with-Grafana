@@ -1,7 +1,4 @@
 # Monitoring-EC2-CPU-Utilization-with-Grafana
-# 🚀 Monitoring EC2 CPU Utilization with Grafana (CloudWatch Integration) 🖥️📈
-
-
 Overview ✨
 -----------
 This project shows a full, production-ready implementation to deploy Grafana on an AWS EC2 instance and integrate it with CloudWatch to monitor EC2 CPU utilization (and other metrics). The README below is a single, copy/pasteable playbook you can run from the command line to reproduce everything end-to-end: provisioning, OS setup, Grafana install, CloudWatch integration, dashboard provisioning, image assets, TLS, hardening, alerting, and cleanup.
@@ -25,7 +22,7 @@ High-level architecture
 -----------------------
 EC2 (Grafana) --uses--> IAM Instance Profile --> CloudWatch API  
 Grafana pulls CloudWatch metrics and renders dashboards on port 3000. Optionally, an NGINX reverse proxy / ALB provides HTTPS and authentication.
-![Alt text describing the image](assets/images/image1.png)
+![Alt text describing the image](https://github.com/Naveen15github/Monitoring-EC2-CPU-Utilization-with-Grafana/blob/b9d56d60e132d7c6ee2eb507d816494bfc703fb5/Screenshot%202025-10-22%20171511.png)
 ![Alt text describing the image](assets/images/image1.png)
 ![Alt text describing the image](assets/images/image1.png)
 ![Alt text describing the image](assets/images/image1.png)
