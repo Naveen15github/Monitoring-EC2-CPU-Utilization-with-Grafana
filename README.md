@@ -23,13 +23,13 @@ High-level architecture
 EC2 (Grafana) --uses--> IAM Instance Profile --> CloudWatch API  
 Grafana pulls CloudWatch metrics and renders dashboards on port 3000. Optionally, an NGINX reverse proxy / ALB provides HTTPS and authentication.
 ![Alt text describing the image](https://github.com/Naveen15github/Monitoring-EC2-CPU-Utilization-with-Grafana/blob/b9d56d60e132d7c6ee2eb507d816494bfc703fb5/Screenshot%202025-10-22%20171511.png)
-![Alt text describing the image](assets/images/image1.png)
-![Alt text describing the image](assets/images/image1.png)
-![Alt text describing the image](assets/images/image1.png)
-![Alt text describing the image](assets/images/image1.png)
-![Alt text describing the image](assets/images/image1.png)
-![Alt text describing the image](assets/images/image1.png)
-![Alt text describing the image](assets/images/image1.png)
+![Alt text describing the image](https://github.com/Naveen15github/Monitoring-EC2-CPU-Utilization-with-Grafana/blob/b9d56d60e132d7c6ee2eb507d816494bfc703fb5/Screenshot%20(78).png)
+![Alt text describing the image](https://github.com/Naveen15github/Monitoring-EC2-CPU-Utilization-with-Grafana/blob/b9d56d60e132d7c6ee2eb507d816494bfc703fb5/Screenshot%20(79).png)
+![Alt text describing the image](https://github.com/Naveen15github/Monitoring-EC2-CPU-Utilization-with-Grafana/blob/b9d56d60e132d7c6ee2eb507d816494bfc703fb5/Screenshot%20(80).png)
+![Alt text describing the image](https://github.com/Naveen15github/Monitoring-EC2-CPU-Utilization-with-Grafana/blob/b9d56d60e132d7c6ee2eb507d816494bfc703fb5/Screenshot%20(81).png)
+![Alt text describing the image](https://github.com/Naveen15github/Monitoring-EC2-CPU-Utilization-with-Grafana/blob/b9d56d60e132d7c6ee2eb507d816494bfc703fb5/Screenshot%20(82).png)
+![Alt text describing the image](https://github.com/Naveen15github/Monitoring-EC2-CPU-Utilization-with-Grafana/blob/b9d56d60e132d7c6ee2eb507d816494bfc703fb5/Screenshot%20(83).png)
+![Alt text describing the image](https://github.com/Naveen15github/Monitoring-EC2-CPU-Utilization-with-Grafana/blob/b9d56d60e132d7c6ee2eb507d816494bfc703fb5/Screenshot%20(84).png)
 
 
 Full implementation steps (end-to-end)
